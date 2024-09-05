@@ -10,7 +10,7 @@ add()
     scanf("%d",&n);
 
     
-    printf("result of factorial:%d",i+n);
+    printf("result of addition :%d",i+n);
 }
 
 main()
