@@ -9,7 +9,7 @@ main()
 
     meters = kilometers * 1000;
 
-    printf("%f kilometers is equal to %f meters\n", kilometers, meters);
+    printf("%.2f kilometers is equal to %.2f meters\n", kilometers, meters);
 
     
 }
