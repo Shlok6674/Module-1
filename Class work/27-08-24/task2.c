@@ -9,7 +9,7 @@ main()
 
     for(i=1;i<=n;i++)
     {
-        printf("%d\n ",i);
+        printf("\n%d ",i);
         if (i==n/2)
         {
             break;
