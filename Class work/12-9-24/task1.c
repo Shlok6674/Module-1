@@ -27,7 +27,6 @@ fact()
 
 main()
 {
-    
     printf("\n%d",add());
     printf("\n%d",fact());
 }
