@@ -7,7 +7,7 @@ main()
 {
     for(s1.i=0;s1.i<5;s1.i++)
     {
-        printf("Enter the number 1 :");
+        printf("Enter the number %d :",s1.i+1);
         scanf("%d",&s1.a[s1.i]);
     }
 
@@ -15,7 +15,7 @@ main()
     {
         for(s1.j=s1.i+1;s1.j<5;s1.j++)
         {
-            if(s1.a[s1.i]>s1.a[s1.j])
+            if(s1.a[s1.i]<s1.a[s1.j])
             {
                 s1.n=s1.a[s1.i];
                 s1.a[s1.i]=s1.a[s1.j];

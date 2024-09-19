@@ -1,0 +1,202 @@
+DATA TYPES:
+
+A data type is a classification of data that determines the size and layout of the variable in memory, as well as the set of operations that can be performed on it.
+The data types in C can be classified as follows:
+
+Types
+
+
+Primitive Data Types	     Primitive data types are the most basic data types that are used for representing simple values such as integers, float, characters, etc.
+User Defined Data Types	     The user-defined data types are defined by the user himself.
+Derived Types                The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types.
+
+
+VARIABLE:
+
+A variable is a named storage location that holds a value of a specific type. Variables are used to store and manipulate data in a program
+
+CONDITIONAL STATEMENT 
+
+[if Statement]
+
+The if statement in C is used to execute a block of code based on a specified condition.
+
+The syntax of if :
+
+if (condition) {
+   // code to be executed if the condition is true
+}
+
+[if-else Statement]
+
+The if-else statement is a decision-making statement that is used to decide whether the part of the code will be executed or not based on the specified condition (test expression).
+If the given condition is true, then the code inside the if block is executed, otherwise the code inside the else block is executed.
+
+Syntax of if-else:
+
+if (condition) {
+    // code executed when the condition is true
+}
+else {
+    // code executed when the condition is false
+}
+
+[NESTED IF -ELSE]
+
+A nested if in C is an if statement that is the target of another if statement. 
+Nested if statements mean an if statement inside another if statement. 
+Yes, C allow us to nested if statements within if statements, i.e, we can place an if statement inside another if statement.
+
+Syntax of Nested if-else:
+if (condition1) 
+{
+   // Executes when condition1 is true
+   if (condition_2) 
+   {
+      // statement 1
+   }
+   else
+   {
+         // Statement 2
+    }
+}
+else {
+     if (condition_3) 
+   {
+      // statement 3
+   }
+   else
+   {
+         // Statement 4
+    }
+}
+
+[LADDER IF-ELSE]
+
+The if else if statements are used when the user has to decide among multiple options. 
+The C if statements are executed from the top down.
+As soon as one of the conditions controlling the if is true, the statement associated with that if is executed, and the rest of the C else-if ladder is bypassed.
+If none of the conditions is true, then the final else statement will be executed. if-else-if ladder is similar to the switch statement.
+
+Syntax of if-else-if Ladder:
+if (condition)
+    statement;
+else if (condition)
+    statement;
+.
+.
+else
+    statement;
+
+
+LOOP:
+
+Loops are responsible for performing repetitive tasks using a short code block that executes until the condition holds true. In this article, we will learn about for loop in C.
+
+There are two types of loop :
+1] Entry control loop  -> for, while
+2] Exit control loop   -> do-while 
+
+For loop 
+
+The for loop in C Language provides a functionality/feature to repeat a set of statements a defined number of times. The for loop is in itself a form of an entry-controlled loop.
+
+Unlike the while loop and do…while loop, the for loop contains the initialization, condition, and updating statements as part of its syntax. 
+It is mainly used to traverse arrays, vectors, and other data structures.
+
+Syntax of for Loop:
+
+for(initialization; check/test expression; updation)
+{    
+     // body consisting of multiple statements
+}
+
+while loop 
+
+The while Loop is an entry-controlled loop in C programming language. This loop can be used to iterate a part of code while the given condition remains true.
+
+Syntax:
+
+while (test expression)
+{
+   // body consisting of multiple statements
+}
+
+DO-WHILE LOOP:
+
+The do-while loop is similar to the while loop with one important difference. 
+The body of do-while loop is executed at least once. Only then, the test expression is evaluated.
+
+The syntax of the do-while loop is:
+
+do {
+  // the body of the loop
+}
+while (test Expression);
+
+LOOP CONTROL STATEMENT:
+
+BREAK STATEMENT 
+
+The break in C is a loop control statement that is used to terminate the loop. 
+As soon as the break statement is encountered from within a loop, the loop iterations stop there and control returns from the loop immediately to the first statement after the loop.
+
+Syntax:
+
+break;
+
+CONTINUE STATEMENT 
+
+C continue statement is a loop control statement that forces the program control to execute the next iteration of the loop. 
+As a result, the code inside the loop following the continue statement will be skipped and the next iteration of the loop will begin.
+
+Syntax:
+
+continue;
+
+ARRAY:
+
+SINGLE DIMENSIONAL 
+
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+To create an array, define the data type (like int) and specify the name of the array followed by square brackets [].
+
+To insert values to it, use a comma-separated list, inside curly braces:
+
+SYNTAX 
+
+int myNumbers[4] = {25, 50, 75, 100};
+
+MULTI DIMENSIONAL
+ 
+A multidimensional array is basically an array of arrays.
+Arrays can have any number of dimensions. In this chapter, we will introduce the most common; two-dimensional arrays (2D).
+
+SYNTAX:
+
+int matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };
+
+STRING
+
+
+Strings are used for storing text/characters.
+
+For example, "Hello World" is a string of characters.
+
+Unlike many other programming languages, C does not have a String type to easily create string variables. Instead, you must use the char type and create an array of characters to make a string in C:
+
+char greetings[] = "Hello World!";
+
+
+
+
+ 
+
+
+
+
+
+
+
+
