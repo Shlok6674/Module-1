@@ -3,11 +3,13 @@ using namespace std;
 
 class A{
     
+    protected:
+    string s;
+    int i;
     public:
     Ab()
     {
-        string s;
-        int i;
+        
         cout<<endl<<"Enter the Student Name\t";
         cin>>s;
         cout<<endl<<"Enter the Student Roll Number\t  ";
@@ -15,6 +17,7 @@ class A{
     }
 };
 class B:public A{
+
     public:
     int j,k,m;
     Bc()
@@ -30,6 +33,7 @@ class B:public A{
     }
 };
 class C:public B{
+
     public:
     Cd()
     {
