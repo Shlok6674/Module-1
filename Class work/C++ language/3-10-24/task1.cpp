@@ -36,7 +36,7 @@ class C:public B{
         int total;
         float percent;
         total= j+k+m;
-        percent= total/300*100;
+        percent= total/3;
         cout<<"Total Marks of student"<<total;
         cout<<endl<<"Percentage of student"<<percent;
     }
@@ -45,7 +45,7 @@ class C:public B{
 main()
 {
     C obj;
-    obj.Ab
+    obj.Ab();
     obj.Bc();
     obj.Cd();
 
