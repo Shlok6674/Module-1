@@ -16,22 +16,27 @@ class B:public A{
         cout<<"This is Function 2"<<endl;
     }
 };
-class C:public A{
+class C{
     public:
     Cd()
     {
         cout<<"This is Function 3"<<endl;
     }
 };
+class D:public B,public C{
+    public:
+    De()
+    {
+        cout<<"This is Function 4"<<endl;
+    }
+};
 
 main()
 {
-    B obj1;
+    D obj1;
     obj1.Ab();
     obj1.Bc();
-    C obj;
-    obj.Ab();
-    obj.Cd();
-
+    obj1.Cd();
+    obj1.De();
 }
 
