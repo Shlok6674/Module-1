@@ -1,19 +1,20 @@
+//sum of 10 numbers using of while loop
 #include <stdio.h>
 
-int main() {
-    int n, sum = 0, i;
+main() 
+{
+    int sum = 0, num, count = 1;
 
-    
-    printf("Input any number: ");
-    scanf("%d", &n);
+    printf("Enter 10 numbers:\n");
 
-    
-    for(i = 1; i <= n; i++) {
-        sum += i;
+    while (count <= 10) 
+    {
+        scanf("%d", &num);
+        sum += num;
+        count++;
     }
 
-  
-    printf("Sum = %d\n", sum);
+    printf("The sum of the 10 numbers is: %d\n", sum);
 
-    return 0;
+    
 }

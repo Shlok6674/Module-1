@@ -1,21 +1,37 @@
+//Accept 3 numbers from user using while loop and check each numbers palindrome
 #include <stdio.h>
 
-int main() {
-    int n, i, j, sum = 0;
+main() 
+{
+    int num, originalNum, reversedNum, remainder, count = 0;
 
-    // Prompt the user to input a number
-    printf("Input any number: ");
-    scanf("%d", &n);
+    printf("Enter 3 numbers:\n");
 
-    // Calculate the sum of the series
-    for(i = 1; i <= n; i++) {
-        for(j = 1; j <= i; j++) {
-            sum += j;
+    while (count < 3) 
+    {
+        scanf("%d", &num);
+        originalNum = num;
+        reversedNum = 0;
+
+        while (num != 0) 
+        {
+            remainder = num % 10;
+            reversedNum = reversedNum * 10 + remainder;
+            num /= 10;
         }
+
+        if (originalNum == reversedNum) 
+        {
+            printf("%d is a palindrome.\n", originalNum);
+        } 
+        else 
+        {
+            printf("%d is not a palindrome.\n", originalNum);
+        }
+
+        count++;
     }
 
-    // Display the sum
-    printf("Sum = %d\n", sum);
-
-    return 0;
+    
 }
+
