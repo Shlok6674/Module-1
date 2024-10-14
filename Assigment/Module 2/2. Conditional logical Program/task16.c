@@ -34,5 +34,5 @@ main()
         printf("Its Very Hot\n");
     }
 
-    return 0;
+
 }

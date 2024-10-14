@@ -21,5 +21,5 @@ int main() {
         printf("No profit or loss.\n");
     }
 
-    return 0;
+    
 }

@@ -34,5 +34,5 @@ main()
             printf("Invalid input. Please enter a number between 1 and 7.\n");
     }
 
-    return 0;
+    
 }
