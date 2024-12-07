@@ -7,7 +7,7 @@ main() {
     int start, length, i;
 
     printf("Enter a string: ");
-    fgets(str, sizeof(str), stdin);
+    gets(str);
 
     printf("Enter the starting position: ");
     scanf("%d", &start);

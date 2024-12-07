@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main() 
+main() 
 {
     char str1[100], str2[100]; 
     int i, areEqual = 1; 

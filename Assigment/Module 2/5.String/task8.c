@@ -1,5 +1,4 @@
-//count the total number of vowels or consonants in a
-string
+//count the total number of vowels or consonants in a string
 #include<stdio.h>
 #include<string.h>
 
