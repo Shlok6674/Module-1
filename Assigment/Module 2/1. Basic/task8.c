@@ -3,16 +3,15 @@
 
 main() 
 {
-    float length, width, circumference;
+    float length, width, circumference; // Variables to store the length, width, and circumference of the rectangle
 
     printf("Enter the length of the rectangle: ");
-    scanf("%f", &length);
+    scanf("%f", &length); // Get the length from the user
 
     printf("Enter the width of the rectangle: ");
-    scanf("%f", &width);
+    scanf("%f", &width); // Get the width from the user
 
-    circumference = 2 * (length + width);
+    circumference = 2 * (length + width); // Calculate the circumference of the rectangle
 
-    printf("Circumference of the rectangle: %.2f units\n", circumference);
-
+    printf("Circumference of the rectangle: %.2f units\n", circumference); // Display the circumference of the rectangle
 }

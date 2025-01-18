@@ -1,21 +1,19 @@
 #include <stdio.h>
 
-
 main() 
 {
-	float pi=3.14;
-    double radius, area, circumference;
+    float pi = 3.14; // Define the value of pi
+    double radius, area, circumference; // Variables to store radius, area, and circumference
 
-   
     printf("Enter the radius of the circle: ");
-    scanf("%lf", &radius);
-	 
-    area = pi * radius * radius;
-    circumference = 2 * pi * radius;
+    scanf("%lf", &radius); // Get the radius from the user
 
-    printf("Area of the circle: %.2lf\n", area);
-    printf("Circumference of the circle: %.2lf\n", circumference);
+    area = pi * radius * radius; // Calculate the area of the circle
+    circumference = 2 * pi * radius; // Calculate the circumference of the circle
 
-    return 0;
+    printf("Area of the circle: %.2lf\n", area); // Display the area of the circle
+    printf("Circumference of the circle: %.2lf\n", circumference); // Display the circumference of the circle
+
+    return 0; // End of program
 }
 
